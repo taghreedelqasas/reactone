@@ -37,7 +37,7 @@ export default function Portfolio() {
             <div className="col-md-4">
            <div className="inner  " onClick={()=>handleImg(img1)}>
             <img  src={img1}  />
-            <div className="imglay d-flex justify-content-center align-items-center ">
+            <div className="imglay  pt-4    d-flex justify-content-center align-items-center ">
             <i className="fa-solid fa-plus"></i>
 
            </div>
@@ -97,7 +97,7 @@ export default function Portfolio() {
 
         </div>
        </div>
-      {selectedImg!==null?<div className="display  d-flex  justify-content-center align-items-center"  onClick={closehandle}>
+      {selectedImg!==null?<div className="display  mt-5    d-flex  justify-content-center align-items-center"  onClick={closehandle}>
          <img className='fixedImg'  src={selectedImg} alt='selected-img'  onClick={(e)=>e.stopPropagation()}/>
        </div>:''}
     </div>

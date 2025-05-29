@@ -6,7 +6,7 @@ export default function Layout() {
     <div>
      <nav className="navbar navbar-expand-sm position-sticky top-0  w-100   py-4" data-bs-theme="dark">
   <div className="container">
-    <NavLink className="navbar-brand text-uppercase"  to={'/'} >Start Framework</NavLink>
+    <NavLink className="navbar-brand text-uppercase  fs-4 "  to={'/'} >Start Framework</NavLink>
     <button className="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon" />
     </button>

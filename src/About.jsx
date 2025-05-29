@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <div   className='about  text-white '>
+    <div   className='about  text-white  '>
    <h2  className='h1  text-uppercase '>about component</h2>
    <div className='  d-flex align-items-center   justify-content-center m-4'>
         <div  className='line'>         

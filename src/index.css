@@ -16,10 +16,7 @@ img{
 .home,.about{
   background-color: var(--bg-main-color);
 }
-.about{
-  padding: 100px 0;
 
-}
 .about .container{
   width: 80%;
 }
@@ -133,6 +130,6 @@ img{
   background-color: #1A252F;
 }
 .about,.contact,.portfolio,.home{
-  padding-top: 150px;
+  padding-top: 50px;
   padding-bottom: 30px;
 }
